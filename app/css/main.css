@@ -108,6 +108,31 @@ input[type="text"]:focus + input[type="submit"] {
 	color: rgba(0, 0, 0, 0.70);}
 }
 
+
+@media only screen and (max-height: 1000px){
+  .cards{
+
+  max-height: 550px;
+
+}
+}
+
+@media only screen and (max-height: 750px){
+  .cards{
+
+  max-height: 450px;
+
+}
+}
+
+@media only screen and (max-height: 570px){
+  .cards{
+
+  max-height: 350px;
+
+}
+}
+
 * {
   box-sizing: border-box;
   &:before,
